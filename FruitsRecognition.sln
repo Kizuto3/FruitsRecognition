@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsRecognition", "FruitsRecognition\FruitsRecognition.csproj", "{ACB87270-49F1-4A00-998E-5D89409A0011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsRecognition.ModelTrainer", "FruitsRecognition.ModelTrainer\FruitsRecognition.ModelTrainer.csproj", "{6A4B8EFE-7FFF-4DDD-AB47-541040C56FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsRecognition.MLContextFactory", "FruitsRecognition.MLContextFactory\FruitsRecognition.MLContextFactory.csproj", "{0C025832-06AA-4615-8624-2B7A101F50D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsRecognition.Predictor", "FruitsRecognition.Predictor\FruitsRecognition.Predictor.csproj", "{06662C0F-5DE6-4957-9C71-AAE405563E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB87270-49F1-4A00-998E-5D89409A0011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB87270-49F1-4A00-998E-5D89409A0011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB87270-49F1-4A00-998E-5D89409A0011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB87270-49F1-4A00-998E-5D89409A0011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4B8EFE-7FFF-4DDD-AB47-541040C56FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4B8EFE-7FFF-4DDD-AB47-541040C56FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4B8EFE-7FFF-4DDD-AB47-541040C56FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4B8EFE-7FFF-4DDD-AB47-541040C56FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C025832-06AA-4615-8624-2B7A101F50D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C025832-06AA-4615-8624-2B7A101F50D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C025832-06AA-4615-8624-2B7A101F50D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C025832-06AA-4615-8624-2B7A101F50D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06662C0F-5DE6-4957-9C71-AAE405563E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06662C0F-5DE6-4957-9C71-AAE405563E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06662C0F-5DE6-4957-9C71-AAE405563E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06662C0F-5DE6-4957-9C71-AAE405563E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {709312CC-B724-4310-94B2-82140B81705F}
+	EndGlobalSection
+EndGlobal
